@@ -1,3 +1,6 @@
+// 선택 정렬 시간복잡도 O(n^2) 공간복잡도 O(n)
+// 아이디어가 매우 간단
+
 #include <iostream>
 
 using namespace std;

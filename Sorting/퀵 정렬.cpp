@@ -1,4 +1,7 @@
-// 퀵정렬 시간복잡도 : nlogn , 최악일경우는 n^2
+// 퀵정렬 시간복잡도 : O(nlogn) , 최악일경우는 O(n^2)
+// 공간복잡도 : O(n)
+// 대부분의 경우 가장 적합하며, 충분히 빠름
+// 표준 정렬 라이브러리는 최악의 경우도 O(nlogn)을 보장하도록 설계되어 있음
 
 #include <iostream>
 
@@ -44,8 +47,6 @@ void quickSort(int* target, int start, int end)
 			swap(target[left], target[right]);
 		}		
 	}
-
-	// 분할 이후 왼쪽부분과 오른쪽 부분에서 각각 정렬 수행
 	quickSort(target, start, right - 1);
 	quickSort(target, right + 1, end);
 }

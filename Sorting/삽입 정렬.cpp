@@ -1,3 +1,6 @@
+// 삽입 정렬 시간복잡도 O(n^2) 공간 복잡도 O(n)
+// 데이터가 거의 정렬되어 있을 때는 가장 빠름 O(n) 
+
 #include <iostream>
 
 using namespace std;
