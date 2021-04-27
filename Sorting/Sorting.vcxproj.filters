@@ -21,5 +21,11 @@
     <ClCompile Include="선택 정렬.cpp">
       <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
+    <ClCompile Include="삽입 정렬.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="퀵 정렬.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
