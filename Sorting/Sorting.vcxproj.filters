@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\동빈나">
       <UniqueIdentifier>{b51e27f5-65b7-4a23-92aa-ee60cf8a805e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{4ee51fa9-1406-4ffb-b3c7-9ffecdef389e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="선택 정렬.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="두 배열의 원소 교체.cpp">
       <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째수.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
