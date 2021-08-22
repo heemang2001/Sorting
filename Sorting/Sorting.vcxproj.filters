@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\프로그래머스">
       <UniqueIdentifier>{4ee51fa9-1406-4ffb-b3c7-9ffecdef389e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{dd345666-1cf2-4b86-8426-6fdc9b0c67f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="선택 정렬.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="H-Index.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="강의실 배정.cpp">
+      <Filter>소스 파일\백준</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
