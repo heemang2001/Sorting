@@ -9,8 +9,8 @@ int N;
 int answer;
 
 vector<pair<int, int>> vecClass;
-priority_queue<pair<int, int>> pq;
-priority_queue<int> room;
+priority_queue<pair<int, int>> pq; // 끝나는 시간, 강의실 번호
+priority_queue<int> room; // 빈 강의실
 
 int main()
 {
