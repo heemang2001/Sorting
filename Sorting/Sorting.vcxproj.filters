@@ -108,5 +108,8 @@
     <ClCompile Include="좌표 정렬하기.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
+    <ClCompile Include="먹을 것인가 먹힐 것인가.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
